@@ -1,0 +1,53 @@
+#root level
+portrait_images
+.vscode
+node_modules
+
+
+common/dist
+common/node_modules
+
+
+#backend 
+# prod
+backend/dist/
+# dev
+backend/.yarn/
+backend/!.yarn/releases
+backend/.vscode/*
+backend/!.vscode/launch.json
+backend/!.vscode/*.code-snippets
+backend/.idea/workspace.xml
+backend/.idea/usage.statistics.xml
+backend/.idea/shelf
+
+# deps
+backend/node_modules/
+backend/.wrangler
+# env
+backend/my-app/.env
+backend/.env
+backend/.env.production
+backend/.dev.vars
+# logs
+backend/logs/
+backend/*.log
+backend/npm-debug.log*
+backend/yarn-debug.log*
+backend/yarn-error.log*
+backend/pnpm-debug.log*
+backend/lerna-debug.log*
+# misc
+backend/.DS_Store
+
+
+
+
+
+
+frontend/.vscode
+
+frontend/node_modules
+
+
+frontend/vercel.json
