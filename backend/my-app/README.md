@@ -1,7 +1,11 @@
-this is the backend file 
-npm i
-npx generate client --no-engine
+# 1. Install all dependencies
+npm install
+
+# 2. Generate the Prisma client without bundling the engine
+npx prisma generate --no-engine
+
+# 3. Start the development server
 npm run dev
 
---to deploy on the cloudflare
+# 4. to deploy
 npm run deploy
