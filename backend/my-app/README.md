@@ -1,11 +1,9 @@
-# 1. Install all dependencies
+#Install all dependencies
 npm install
-
-# 2. Generate the Prisma client without bundling the engine
+#Generate the Prisma client without bundling the engine
 npx prisma generate --no-engine
-
-# 3. Start the development server
+#Start the development server
 npm run dev
 
-# 4. to deploy
+#to deploy
 npm run deploy
